@@ -5,6 +5,7 @@ public class Clase1{
         System.out.println("Ya me hartó la 40tena");
         //Declarar variables
 
+        //Holaa
         //ints
         int integerName = 0;
         //Strings
