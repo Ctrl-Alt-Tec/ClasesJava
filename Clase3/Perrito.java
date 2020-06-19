@@ -20,6 +20,7 @@ public class Perrito {
 
     public void darAmor(){
         System.out.println("El perrito llamado: " + nombre);
+        // System.out.println("<3");
         System.out.println("       ******       ******");
         System.out.println("     **********   **********");
         System.out.println("   ************* *************");

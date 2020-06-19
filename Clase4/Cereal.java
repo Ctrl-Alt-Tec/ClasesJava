@@ -35,6 +35,7 @@ public void escogerCereal(){
         System.out.println("Rico");
         darInstrucciones(seleccionDeCereal);
     }
+    tecladito.close();
 
 }
     
@@ -55,6 +56,7 @@ public String getConfirmar(){
     Scanner teclado = new Scanner(System.in);
     System.out.println("¿Listo?");
     String afirmacion = teclado.nextLine();
+    teclado.close();
     return afirmacion;
 }
 

@@ -23,6 +23,7 @@ public class Clase1{
             //Moverme hacia adelante
             System.out.println("Avanza!!!");
             
+            
         }
         if (integerName == 0/*Como comparamos, le ponemos doble igual*/){
             //Cerrar una pinza
@@ -30,7 +31,6 @@ public class Clase1{
         }else{
             System.out.println("Else!!: ");
         }
-
 
     }
 }

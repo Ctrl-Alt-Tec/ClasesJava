@@ -28,6 +28,10 @@ public class Clase2Continuacion {
 
         System.out.println("Factorial de: " +  num + "= " + factorial(num));
         
+        //Cerramos el scanner para que no marque sugerencia
+        //Esto no lo sabía :)
+        teclado.close();
+        
     }
 
     static double calcularAreaRectangulo (double base, double altura){

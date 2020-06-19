@@ -20,6 +20,5 @@ public class Clase3{
 
         System.out.println("El nombre es: " + perrito1.getNombre());
 
-
     }
 }

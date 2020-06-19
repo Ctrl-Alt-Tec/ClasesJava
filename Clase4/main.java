@@ -51,6 +51,7 @@ public class main {
             System.out.println("El valor " + (i+1) + " es " + arrayDeStrings[i]); 
         }
 
+        teclado.close();
     }
     
 }
