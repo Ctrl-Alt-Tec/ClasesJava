@@ -1,4 +1,4 @@
-package ClasesJava.Clase6;
+package ClasesJava.Clase6.Solucion;
 
 public class Alumno {
     //La siguiente clase tiene un par de errores
@@ -8,9 +8,9 @@ public class Alumno {
     //Además de hacer que funcione, tienes que
     //Poner en práctica los principios de encapsulamiento
 
-    int edad;
-    String nombre;
-    int asistencias;
+    private int edad;
+    private String nombre;
+    private int asistencias;
 
     public Alumno (String nombre, int edad){
         this.nombre = nombre;
@@ -24,6 +24,7 @@ public class Alumno {
     //Si quieren hacerlo en menos líneas, pueden:
     //Esto no tiene ningún error :)
     public int getEdad() {return edad;}
+    public String getNombre() {return nombre;}
 
     //Falta el get del nombre
     

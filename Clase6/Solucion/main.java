@@ -1,4 +1,4 @@
-package ClasesJava.Clase6;
+package ClasesJava.Clase6.Solucion;
 
 public class main {
     /**Problema 1 
@@ -15,7 +15,9 @@ public class main {
         //Primero verifica que ya funcione la clase Alumno
         //Esto hazlo al construir un alumno y llamar
         //a su método de presentar
-        
+        Alumno alumno = new Alumno("Jorge", 19);
+        alumno.show();
+
         /**Problema 2 */
         //Array para problema 2
         
@@ -27,9 +29,14 @@ public class main {
         
         //Primero crea una clase Salón.
         //Verifica que esté funcionando con el método de mostrarSalon
+        Salon salon = new Salon ("Jorge", 502);
+        salon.mostrarSalon();
 
-        // salon.alumnosFaltantes(asistentes_de_hoy);
+        int faltantes = salon.alumnosFaltantes(asistentes_de_hoy);
         
+        System.out.println("El día de hoy faltaron: " + faltantes + " personas.");
+        
+        salon.mostrarSalon();
         
 
     }

@@ -5,7 +5,6 @@ public class Salon {
     //y completar los métodos existentes
 
     //De de tener los siguientes atributos:
-        // Array de n alumnos
         // Nombre del profesor
         // Salón
 
@@ -54,6 +53,7 @@ public class Salon {
             System.out.print("\t");
             integrante.show();
         }
+        System.out.println("--------------");
     }
 
 
