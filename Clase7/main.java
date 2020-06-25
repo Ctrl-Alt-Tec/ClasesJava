@@ -5,30 +5,35 @@ import java.util.Arrays;
 public class main {
     public static void main(String[] args) {
         
-        //* * * *
-        //* * * *
+        //Cómo mostrar un cuadrado
         for (int j = 0; j < 2; j++) {
             for (int i = 0; i < 4; i++) {
                 System.out.print("* "); //* * * *
             }
             System.out.println("");    //"\n" 
         }
+        //Resultado del código anterior:
+            //* * * *
+            //* * * *
 
-        System.out.println(""); //* * * *
+        System.out.println(""); 
+        //Cómo mostrar un triángulo
+        
         //Triangulo de arriba a abajo
-        for (int j = 0; j < 4; j++) { //Base
-            for (int i = 0; i < j+1; i++) { //Altura
+        for (int j = 0; j < 4; j++) { //Altura
+            for (int i = 0; i < j+1; i++) { //Base
                 System.out.print("* ");
             }
             System.out.println("");
         }
-        // 0,0
-        // 1,0 -> 1,1
-        // 2,0 -> 2,1 -> 2,2
+        //Valores cambiantes de i y j
+            // 0,0
+            // 1,0 -> 1,1
+            // 2,0 -> 2,1 -> 2,2
 
         //Triangulo de abajo a arriba
-        for (int j = 0; j < (4+1); j++) { //Base
-            for (int i = 0; i < 4-j; i++) { //Altura
+        for (int j = 0; j < (4+1); j++) { //Altura
+            for (int i = 0; i < 4-j; i++) { //Base
                 System.out.print("  ");
             } // espacios
             for (int i2 = 0; i2 < j; i2++){
@@ -51,8 +56,9 @@ public class main {
         //Declarar array BI-dimensional aka matriz
         int ancho = 10;
         int alto = 3;
-        String [][] tablita = new String [ancho][alto];
 
+        String [][] tablita = new String [alto][ancho]; //Recuerden, es(y,x)
+        //Defir el valor de la casilla (0,0)
         tablita [0][0] = ":)";
         
         // Combinar dos matrices
@@ -77,7 +83,10 @@ public class main {
         printArray(cubito2);
 
         //Merge de c1 y c2
-        char [][] cubito3 = new char [3][3+3];
+        char [][] cubito3 = new char [3][3+3]; 
+        /**
+         * Como los juntamos horizontalmente, sumamos sus anchos para tener un ancho total
+         */
         for (int i = 0; i < 3; i++){
             for (int j = 0; j< 6; j++){
                 if (j <3){ //La midad, el fin de mi c1
@@ -91,9 +100,8 @@ public class main {
         printArray(cubito3);
         System.out.println("");
 
-
-
-
+        //--------------------------------------------------------
+        //INSTRUCCIONES:
         /**
          * Crea la clase rectángulo
          * Tú debes de indicar los atributos
@@ -135,16 +143,25 @@ public class main {
          * Tú defines los atributos
          * Sólo tiene el método de dibujar:
          *         *
-         *        * *
          *       * * *
-         *      * * * *
          *     * * * * *
-         *    * * * * * *
          *   * * * * * * *
          *   * * * * * * *
          *   * * * * * * *
          *   * * * * * * *
          *   * * * * * * *
+         *   * * * * * * *
+         *   * * * * * * *
+         * Extra: haz que sólo tenga bordes:
+         *         *
+         *       * * *
+         *     * * * * *
+         *   * * * * * * *
+         *   *           *
+         *   *           *
+         *   *           *
+         *   *           *
+         *   *           *
          *   * * * * * * *
          */
 
