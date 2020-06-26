@@ -15,7 +15,8 @@ public class Clase1{
         boolean isArriba = false;
         //doubles
         double valorDecimal = 0.0;
-
+        valorDecimal++;
+        System.out.println(valorDecimal);
         System.out.println(integerName + " " + stringName);
 
         //Condiciones
