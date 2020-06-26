@@ -1,6 +1,6 @@
 package ClasesJava.Clase6.Solucion;
 
-public class main {
+public class notMain {
     /**Problema 1 
      * Ve a la clase Alumno y corríegela
     */

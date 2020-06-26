@@ -3,7 +3,7 @@ package ClasesJava.Clase5;
 //Importamos la clase perrito de la tercera clase
 import ClasesJava.Clase3.*;
 
-public class main {
+public class notMain {
     public static void main(String[] args) {
        //Encapsulamiento:
         Patito perry = new Patito ("verde");
