@@ -13,6 +13,7 @@ public class Alumno {
     int asistencias;
 
     public Alumno (String nombre, int edad){
+        
         this.nombre = nombre;
         this.edad = edad;
         asistencias = 0;
