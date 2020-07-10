@@ -1,0 +1,12 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}A01023859_Jorge Pérez
+${licensePrefix}Informática
+${licensePrefix}( ?? ?? ??)
+${licensePrefix}?•?•?
+${licensePrefix}(???????)?
+${licensePrefix}Each line should be prefixed with ${licensePrefix}
+<#if licensLast??>
+${licenseLast}
+</#if>
