@@ -1,5 +1,7 @@
 package ClasesJava.Clase6;
 
+import java.util.Arrays;
+
 public class notMain {
     /**Problema 1 
      * Ve a la clase Alumno y corríegela
@@ -25,6 +27,12 @@ public class notMain {
             new Alumno("Anita", 10),
             new Alumno("Maria", 9)};
         
+        Alumno [] nuevosA = Arrays.copyOf(asistentes_de_hoy, 20);
+        
+        for (Alumno alumno : nuevosA) {
+            System.out.println(alumno.edad);
+        }
+
         //Primero crea una clase Salón.
         //Verifica que esté funcionando con el método de mostrarSalon
 

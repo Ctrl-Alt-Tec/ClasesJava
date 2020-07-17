@@ -1,6 +1,7 @@
 package ClasesJava.clase1;
 
 public class Clase1{
+    
     public static void main(String Args[]) {
         System.out.println("Ya me hartó la 40tena");
         //Declarar variables
